@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Orca XML File Format -->
+<OrcaTrees ObjectTypeExpression="Full" BinaryEncodingType="Base64" FileVersion="3" FileRevision="0">
+  <OrcaTree OrcaName="(no name)">
+    <Orca OrcaName="atmcUserFile" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAtmcUserFile">
+      <Orca OrcaName="atmcGeneralViewInfo" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAtmcUserOrcaGroup">
+        <Orca OrcaName="MAIN" ExpandMulti="&quot;dockProjectTree&quot;=True" orcaPath="Categories/MAIN" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAtmcUserOrca"/>
+        <Orca OrcaName="PLAYER SOUNDS" ExpandMulti="&quot;dockProjectTree&quot;=True" orcaPath="Categories/PLAYER SOUNDS" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAtmcUserOrca"/>
+        <Orca OrcaName="PLAYER_SOUNDS" ExpandMulti="&quot;dockProjectTree&quot;=True" orcaPath="Categories/PLAYER SOUNDS/PLAYER_SOUNDS" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAtmcUserOrca"/>
+        <Orca OrcaName="MUSIC" ExpandMulti="&quot;dockProjectTree&quot;=True" orcaPath="Categories/MUSIC" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAtmcUserOrca"/>
+        <Orca OrcaName="MUSIC" ExpandMulti="&quot;dockProjectTree&quot;=True" orcaPath="Categories/MUSIC/MUSIC" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAtmcUserOrca"/>
+        <Orca OrcaName="DUCKED" ExpandMulti="&quot;dockProjectTree&quot;=True" orcaPath="Categories/DUCKED" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAtmcUserOrca"/>
+        <Orca OrcaName="ENNEMY ALERT " ExpandMulti="&quot;dockProjectTree&quot;=True" orcaPath="Categories/ENNEMY ALERT " OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAtmcUserOrca"/>
+        <Orca OrcaName="GlobalAISACs" ExpandMulti="&quot;dockProjectTree&quot;=True" orcaPath="GlobalAISACs" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAtmcUserOrca"/>
+        <Orca OrcaName="proximity" ExpandMulti="&quot;dockProjectTree&quot;=True" orcaPath="GlobalAISACs/proximity" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAtmcUserOrca"/>
+      </Orca>
+      <Orca OrcaName="atmcTreeSortTypeMulti" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAtmcUserOrcaGroup"/>
+      <Orca OrcaName="atmcTreeSortOrderMulti" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAtmcUserOrcaGroup"/>
+      <Orca OrcaName="TreeScale" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAtmcUserOrcaGroup"/>
+    </Orca>
+  </OrcaTree>
+</OrcaTrees>
+<!-- Copyright (c) CRI Middleware Co.,LTD. -->
+<!-- end of document -->
