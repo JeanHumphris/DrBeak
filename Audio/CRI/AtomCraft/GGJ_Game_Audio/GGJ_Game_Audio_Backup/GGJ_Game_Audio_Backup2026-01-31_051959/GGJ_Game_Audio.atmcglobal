@@ -24,26 +24,17 @@
         <Orca OrcaName="BusMapForAisacAndAutomation" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoBusMapAisacGraph"/>
       </Orca>
       <Orca OrcaName="Categories" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCategoryFolder">
-        <Orca OrcaName="Main" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCategoryGroup">
-          <Orca OrcaName="Gameplay" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCategory"/>
-          <Orca OrcaName="UI" CategoryId="5" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCategory"/>
-          <Orca OrcaName="MUSIC" CategoryId="2" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCategory">
-            <Orca OrcaName="Linkproximity" LinkAisac="/CriAtomCraftV2Root/GlobalSettings/GlobalAISACs/PROXIMITY" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacLink"/>
-            <Orca OrcaName="MENU_MUSIC" AisacControl="/CriAtomCraftV2Root/GlobalSettings/AISAC-Controls/AisacControl_01" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisac">
-              <Orca OrcaName="Volume" ControlDestinationType="Volume" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacGraph">
-                <Orca OrcaName="Point" ControlValue="0" DestinationValue="1.0034" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacPoint"/>
-                <Orca OrcaName="Point_0" ControlValue="1" DestinationValue="0.5666" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacPoint"/>
-              </Orca>
-              <Orca OrcaName="BandPassHi" ControlDestinationType="BandPassHi" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacGraph">
-                <Orca OrcaName="Point" ControlValue="0" DestinationValue="1" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacPoint"/>
-                <Orca OrcaName="Point_0" ControlValue="1" DestinationValue="0.51" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacPoint"/>
-              </Orca>
-            </Orca>
-          </Orca>
+        <Orca OrcaName="MAIN" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCategoryGroup">
+          <Orca OrcaName="Main" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCategory"/>
         </Orca>
         <Orca OrcaName="PLAYER SOUNDS" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCategoryGroup">
           <Orca OrcaName="PLAYER_SOUNDS" CategoryId="1" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCategory">
-            <Orca OrcaName="Linkproximity" LinkAisac="/CriAtomCraftV2Root/GlobalSettings/GlobalAISACs/PROXIMITY" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacLink"/>
+            <Orca OrcaName="Linkproximity" LinkAisac="/CriAtomCraftV2Root/GlobalSettings/GlobalAISACs/proximity" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacLink"/>
+          </Orca>
+        </Orca>
+        <Orca OrcaName="MUSIC" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCategoryGroup">
+          <Orca OrcaName="MUSIC" CategoryId="2" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCategory">
+            <Orca OrcaName="Linkproximity" LinkAisac="/CriAtomCraftV2Root/GlobalSettings/GlobalAISACs/proximity" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacLink"/>
           </Orca>
         </Orca>
         <Orca OrcaName="DUCKED" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoCategoryGroup">
@@ -54,9 +45,7 @@
         </Orca>
       </Orca>
       <Orca OrcaName="REACT" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoReactFolder">
-        <Orca OrcaName="DUCKING ALERT" DecrementCurveType="SCurve" DecrementTime="295" DestCategory="/CriAtomCraftV2Root/GlobalSettings/Categories/DUCKED/DUCKED" IncrementTime="930" Level="0.516129" SourceCategory="/CriAtomCraftV2Root/GlobalSettings/Categories/ENNEMY ALERT /ENNEMY ALERT" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoReact"/>
-        <Orca OrcaName="DUCKING MENU" DecrementCurveType="SCurve" DecrementTime="233" DestCategory="/CriAtomCraftV2Root/GlobalSettings/Categories/Main/Gameplay" IncrementTime="1075" Level="0" SourceCategory="/CriAtomCraftV2Root/GlobalSettings/Categories/Main/UI" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoReact"/>
-        <Orca OrcaName="DUCKING MENU MUSIC" DecrementAisacModKey="1" DestCategory="/CriAtomCraftV2Root/GlobalSettings/Categories/Main/MUSIC" ReactType="Trigger" SourceCategory="/CriAtomCraftV2Root/GlobalSettings/Categories/Main/UI" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoReact"/>
+        <Orca OrcaName="DUCKING" DecrementCurveType="SCurve" DecrementTime="295" DestCategory="/CriAtomCraftV2Root/GlobalSettings/Categories/DUCKED/DUCKED" IncrementTime="930" Level="0.516129" SourceCategory="/CriAtomCraftV2Root/GlobalSettings/Categories/ENNEMY ALERT /ENNEMY ALERT" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoReact"/>
       </Orca>
       <Orca OrcaName="VoiceLimitGroups" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoVoiceLimitGroupFolder">
         <Orca OrcaName="VoiceLimitGroup_0" VoiceLimitNum="1" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoVoiceLimitGroup"/>
@@ -80,7 +69,7 @@
         <Orca OrcaName="AisacControl_15" ControlId="15" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacControl"/>
       </Orca>
       <Orca OrcaName="GlobalAISACs" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoGlobalAisacFolder">
-        <Orca OrcaName="PROXIMITY" AisacControl="/CriAtomCraftV2Root/GlobalSettings/AISAC-Controls/AisacControl_00" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisac">
+        <Orca OrcaName="proximity" AisacControl="/CriAtomCraftV2Root/GlobalSettings/AISAC-Controls/AisacControl_00" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisac">
           <Orca OrcaName="Volume" ControlDestinationType="Volume" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacGraph">
             <Orca OrcaName="Point" ControlValue="0" DestinationValue="1" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacPoint"/>
             <Orca OrcaName="Point_1" ControlValue="0.52" DestinationValue="1" OrcaType="CriMw.CriAtomCraft.AcCore.AcOoAisacPoint"/>
